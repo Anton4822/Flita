@@ -7,10 +7,10 @@ void Trans(unsigned a) {
     }
 }
 int main() {
-    long num; 
+    long num;
     scanf("%li", & num);
-    if(num<0){
-        num*=-1;
+    if (num < 0) {
+        num *= -1;
         printf("-");
     }
     Trans(num);
