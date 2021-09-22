@@ -7,7 +7,7 @@ void Trans(unsigned a) {
     }
 }
 int main() {
-    unsigned num;
+    unsigned num; 
     scanf("%d", & num);
     Trans(num);
     return 0;
