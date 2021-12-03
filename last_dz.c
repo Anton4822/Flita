@@ -39,6 +39,7 @@ int main(void) {
         }
     }
 
+
     graph = fopen("graph.dot", "w");
     fprintf(graph, "graph G{\n");
     for (unsigned i = 0; i < x; ++i)
